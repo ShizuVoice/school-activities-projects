@@ -1,0 +1,183 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main ()
+{
+	char choice;
+	clrscr();
+	cout << "Video Rental Shop" << endl;
+	cout << "" << endl;
+	cout << "Type a 'Type Code' for the movie classification" << endl;
+	cout << "-----------------------------------------------" << endl;
+	cout << "Type Code     Movie Category" << endl;
+	cout << "A ----------- Action and Adventure" << endl;
+	cout << "B ----------- Comedy" << endl;
+	cout << "C ----------- Drama" << endl;
+	cout << "D ----------- Family" << endl;
+	cout << "E ----------- Horror and Science Fiction" << endl;
+	cout << "M ----------- Musical" << endl;
+	cin >> choice;
+	
+	switch(choice)
+	{
+	case 'A':
+		clrscr();
+		cout << "Type Code - A" << endl;
+		cout << "Movie Category - Action and Adventure" << endl;
+		cout << "- Kingdom                              - 12 Strong" << endl;
+		cout << "- The Sleepover                        - The Huntsman: Winter's War" << endl;
+		cout << "- Bloodshot                            - Charlie's Angels" << endl;
+		cout << "- Along with the Gods: The Two Worlds  - Suicide Squad" << endl;
+		cout << "- Justice League Dark: Apokolips War   - Rampage" << endl;
+		cout << "- Double Worlds                        - Deadpool" << endl;
+		cout << "- Triple Frontier                      - Interstellar" << endl;
+		cout << "- Ready Player One                     - Kingsman: The Secret Service" << endl;
+		cout << "- Geostorm                             - San Andread" << endl;
+		cout << "- Venom                                - Spectre" << endl;
+		cout << "- Maze Runner: The Death Cure" << endl;
+		cout << "- Aquaman" << endl;
+		cout << "- The Fate of the Furious" << endl;
+		cout << "- The 5th Wave" << endl;
+		cout << "- Fast & Furious Presents: Hobbs & Shaw" << endl;
+		cout << "- Underwater" << endl;
+		cout << "- How to Train Your Dragon: Homecoming" << endl;
+		cout << "- The Great Wall" << endl;
+		cout << "- Logan" << endl;
+		cout << "- Shazam!" << endl;
+		cout << "- Miss Peregrine's Home for Peculiar Children" << endl;
+		break;
+	case 'B':
+		clrscr();
+		cout << "Type Code - B" << endl;
+		cout << "Movie Category - Comedy" << endl;
+		cout << "- The Boss Baby                        - The Secret Life of Pets" << endl;
+		cout << "- Borat Subsequent Moviefilm           - Big Hero 6" << endl;
+		cout << "- The Grinch                           - The Croods" << endl;
+		cout << "- Klaus" << endl;
+		cout << "- Extreme Job" << endl;
+		cout << "- Naked" << endl;
+		cout << "- Ocean's 8" << endl;
+		cout << "- Onward" << endl;
+		cout << "- Dolittle" << endl;
+		cout << "- Bad Boys For Life" << endl;
+		cout << "- Knives Out" << endl;
+		cout << "- Baywatch" << endl;
+		cout << "- Ralph Breaks the Internet" << endl;
+		cout << "- Instant Family" << endl;
+		cout << "- Abominable" << endl;
+		cout << "- The Intern" << endl;
+		cout << "- How to Train Your Dragon: The Hidden World" << endl;
+		cout << "- Sing" << endl;
+		cout << "- Zootopia" << endl;
+		cout << "- The Spongebob Movie: Sponge on the Run" << endl;
+		cout << "- The Dictator" << endl;
+		break;
+	case 'C':
+		clrscr();
+		cout << "Type Code - C" << endl;
+		cout << "Movie Category - Drama" << endl;
+		cout << "- #Alive                               - 22 July" << endl;
+		cout << "- The Trial of the Chicago 7           - Arrival" << endl;
+		cout << "- The King                             - Joker" << endl;
+		cout << "- Time to Hunt                         - Hidden Figures" << endl;
+		cout << "- Skins                                - The Fault in Our Stars" << endl;
+		cout << "- All the Bright Place                 - The Martian" << endl;
+		cout << "- Rebecca                              - American Sniper" << endl;
+		cout << "- Your Lie in April                    - Gone Girl" << endl;
+		cout << "- Alpha                                - Gravity" << endl;
+		cout << "- Fireworks                            - To All the Boys I've Loved Before" << endl;
+		cout << "- Burnt                                - The Impossible" << endl;
+		cout << "- Five Feet Apart" << endl;
+		cout << "- 13 Hours: The Scret Soldiers of Benghazi" << endl;
+		cout << "- Little Women" << endl;
+		cout << "- The Lighthouse" << endl;
+		cout << "- The Founder" << endl;
+		cout << "- Me Before You" << endl;
+		cout << "- Tune in for Love" << endl;
+		cout << "- Wonder" << endl;
+		cout << "- Bohemian Rhapsody" << endl;
+		cout << "- The Call of the Wild" << endl;
+		break;
+	case 'D':
+		clrscr();
+		cout << "Type Code - D" << endl;
+		cout << "Movie Category - Family" << endl;
+		cout << "- Over the Moon" << endl;
+		cout << "- The Willoughbys" << endl;
+		cout << "- The Nutcracker and the Four Realms" << endl;
+		cout << "- Dora and the Lost City of Gold" << endl;
+		cout << "- Descendants 3" << endl;
+		cout << "- A Cinderella Story: Christmas Wish" << endl;
+		cout << "- Scoob!" << endl;
+		cout << "- Pokemon Detective Pikachu" << endl;
+		cout << "- Ballerina" << endl;
+		cout << "- The Son of Bigfoot" << endl;
+		cout << "- Frozen 2" << endl;
+		cout << "- Coco" << endl;
+		cout << "- The Book of Life" << endl;
+		cout << "- The Emoji Movie" << endl;
+		cout << "- The Lion King" << endl;
+		cout << "- The Little Prince" << endl;
+		cout << "- Into The Woods" << endl;
+		cout << "- A Whisker Away" << endl;
+		cout << "- Home" << endl;
+		cout << "- Aladdin" << endl;
+		cout << "- Cats" << endl;
+		break;
+	case 'E':
+		clrscr();
+		cout << "Type Code - E" << endl;
+		cout << "Movie Category - Horror and Science Fiction" << endl;
+		cout << "- Extinction" << endl;
+		cout << "- The Wandering Earth" << endl;
+		cout << "- Hello World" << endl;
+		cout << "- Deep Blue Sea 3" << endl;
+		cout << "- Kin" << endl;
+		cout << "- Assassin 33 A.D." << endl;
+		cout << "- The Platform" << endl;
+		cout << "- Life" << endl;
+		cout << "- The Invisible Man" << endl;
+		cout << "- Assassin's Creed" << endl;
+		cout << "- Black Box" << endl;
+		cout << "- Pandemic" << endl;
+		cout << "- Bird Box" << endl;
+		cout << "- The Predator" << endl;
+		cout << "- 28 Weeks Later" << endl;
+		cout << "- Doom" << endl;
+		cout << "- Morgan" << endl;
+		cout << "- Area 51" << endl;
+		cout << "- Species III" << endl;
+		cout << "- Signs" << endl;
+		cout << "- Happy Death Day 2U" << endl;
+		break;
+	case 'M':
+		clrscr();
+		cout << "Type Code - M" << endl;
+		cout << "Movie Category - Music" << endl;
+		cout << "- Enchanted                            - Trolls Holiday" << endl;
+		cout << "- Dreamgirls                           - La La Land" << endl;
+		cout << "- Christmas on the Square              - The Greatest Showman" << endl;
+		cout << "- August Rush" << endl;
+		cout << "- Tangled" << endl;
+		cout << "- The Dirt" << endl;
+		cout << "- Dumplin'" << endl;
+		cout << "- Rio" << endl;
+		cout << "- Rio 2" << endl;
+		cout << "- The Prom" << endl;
+		cout << "- Jingle Jangle: A Christmas Journey" << endl;
+		cout << "- Pitch Perfect" << endl;
+		cout << "- Pitch Perfect 2" << endl;
+		cout << "- Pitch Perfect 3" << endl;
+		cout << "- Burlesque" << endl;
+		cout << "- Les Miserables" << endl;
+		cout << "- Work It" << endl;
+		cout << "- Street Dancer 3D" << endl;
+		cout << "- Step Up: All In" << endl;
+		cout << "- Trolls" << endl;
+		cout << "- Trolls World Tour" << endl;
+		break;
+	default:
+		cout << "Invalid Type Code"; 
+	}
+getch();
+}
