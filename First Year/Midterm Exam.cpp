@@ -6,7 +6,7 @@ void main ()
     clrscr();
 
     cout << "How many bags does Lina have: ";
-        cin >> Bag_Lina;
+    cin >> Bag_Lina;
     cout << "How many bags does Menel have: ";
     cin >> Bag_Menel;
     cout << "How many marbles does Lina have in total: ";
